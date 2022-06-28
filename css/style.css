@@ -12,9 +12,12 @@ font-family: 'Red Hat Text', sans-serif;
   width: 1440px;
   margin: 0 auto;
 }
+.wrapper {
+  margin-left: 120px;
+}
 .header {
   position: fixed;
-  width: 100%;
+
   padding-top: 25px;
   padding-bottom: 25px;
 
@@ -75,11 +78,13 @@ font-family: 'Red Hat Text', sans-serif;
 
 .btn:hover {
   transition: all 0.5s ease 0s;
+
+  background-color: #207483;
   box-shadow: 0px 4px 4px rgba(255, 252, 252, 0.25),
     0px 2px 3px rgba(211, 222, 224, 0.16);
 }
 
-.login-btn {
+.header__btn {
   margin-left: 200px;
   margin-right: 120px;
 }
@@ -87,29 +92,115 @@ font-family: 'Red Hat Text', sans-serif;
 }
 .preview {
   background-image: url(../assets/img/preview-background.jpg);
-  
+  padding-bottom: 253px;
+  margin-bottom: 80px;
 }
 .preview__title {
+  padding-top: 120px;
+  margin-bottom: 35px;
+
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+
+  color: #ffffff;
 }
 .preview__subtitle {
+  margin-bottom: 46px;
+
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
 }
 .preview__input-wrapper {
 }
+.preview__form {
+  position: relative;
+}
+.preview__input {
+  padding-left: 46px;
+  height: 95px;
+  width: 892px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.preview__input::placeholder {
+  color: #f2785c;
+}
+.preview__btn {
+  padding: 13.5px 34px;
+
+  position: absolute;
+  top: 17px;
+  left: 646px;
+
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
 .steps {
+  margin-bottom: 97px;
 }
 .steps__title {
+  margin-bottom: 40px;
+  text-align: center;
+
+  font-size: 40px;
+  line-height: 53px;
+
+  color: #f2785c;
 }
 .steps__list {
+  display: flex;
+  justify-content: space-between;
 }
 .steps__item {
 }
+.steps__item:first-child {
+  margin-left: 132px;
+}
+.steps__item:last-child {
+  margin-right: 132px;
+}
+.steps__item:nth-child(2) {
+  margin-left: 70px;
+}
 .steps__icon {
+  margin-bottom: 27px;
+  text-align: center;
 }
 .steps__text {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #0d606f;
 }
 .destinations {
 }
 .destinations__title {
+  text-align: center;
+  margin-bottom: 42px;
+
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+
+  color: #f2785c;
 }
 .slider {
 }
