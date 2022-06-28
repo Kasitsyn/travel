@@ -1,0 +1,141 @@
+/* Fonts:
+font-family: 'Aleo', serif;
+font-family: 'Magra', sans-serif;
+font-family: 'Red Hat Text', sans-serif;
+*/
+
+.body {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+}
+.wrapper-body {
+  width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.logo {
+  margin-left: 120px;
+  margin-right: 165px;
+
+  display: flex;
+  gap: 6px;
+}
+.logo__img {
+  width: 30px;
+  height: 30px;
+
+  align-self: center;
+}
+.logo__title {
+  font-family: "Magra", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+}
+.nav {
+}
+.nav__list {
+  display: flex;
+  gap: 42px;
+}
+.nav__item {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.link:hover {
+  transition: all 0.5s ease 0s;
+  color: #0d606f;
+}
+
+.btn {
+  padding: 10px 30px;
+
+  color: #ffffff;
+  font-size: 16px;
+
+  background-color: #0d606f;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all 0.5s ease 0s;
+  box-shadow: 0px 4px 4px rgba(255, 252, 252, 0.25),
+    0px 2px 3px rgba(211, 222, 224, 0.16);
+}
+
+.login-btn {
+  margin-left: 200px;
+  margin-right: 120px;
+}
+.main {
+}
+.preview {
+  background-image: url(../assets/img/preview-background.jpg);
+  
+}
+.preview__title {
+}
+.preview__subtitle {
+}
+.preview__input-wrapper {
+}
+.steps {
+}
+.steps__title {
+}
+.steps__list {
+}
+.steps__item {
+}
+.steps__icon {
+}
+.steps__text {
+}
+.destinations {
+}
+.destinations__title {
+}
+.slider {
+}
+.stories {
+}
+.stories__title {
+}
+.stories__list {
+}
+.stories__item {
+}
+.stories__img-wrapper {
+}
+.stories__img {
+}
+.stories__subtitle {
+}
+.stories__text {
+}
+.footer {
+}
+.footer__text {
+}
+.social__list {
+}
+.social__item {
+}
+.social__icon-wrapper {
+}
