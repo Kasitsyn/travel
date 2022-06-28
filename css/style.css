@@ -5,7 +5,7 @@ font-family: 'Red Hat Text', sans-serif;
 */
 
 html {
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 .body {
@@ -15,8 +15,8 @@ html {
   justify-content: space-between;
   font-family: "Red Hat Text", sans-serif;
   font-weight: 500;
-  scroll-behavior: smooth;
-  
+
+  background-color: #e5e5e5;
 }
 .wrapper-body {
   width: 1440px;
@@ -70,13 +70,13 @@ html {
 }
 
 .link {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .link:hover {
   transition: all 0.5s ease 0s;
   color: #0d606f;
-  text-decoration-line: none;
+  text-decoration-line:none;
 }
 
 .link:active {
@@ -120,7 +120,6 @@ html {
 .preview {
   background-image: url(../assets/img/preview-background.jpg);
   padding-bottom: 253px;
-  margin-bottom: 80px;
 }
 .preview__title {
   padding-top: 120px;
@@ -179,7 +178,10 @@ html {
   left: 646px;
 }
 .steps {
-  margin-bottom: 97px;
+  padding-top: 80px;
+  padding-bottom: 97px;
+
+  background-color: #ffffff;
 }
 .steps__title {
   margin-bottom: 40px;
@@ -219,7 +221,8 @@ html {
   color: #0d606f;
 }
 .destinations {
-  margin-bottom: 75px;
+  background-color: #ffffff;
+  padding-bottom: 75px;
 }
 .destinations__title {
   text-align: center;
@@ -275,6 +278,10 @@ html {
   border-radius: 10px;
   cursor: pointer;
 }
+.slider__btn:hover {
+  transition: .6s;
+  background-color: #0d606f;
+}
 .slider__btn--active {
   background: #f2785c;
 }
@@ -283,6 +290,7 @@ html {
   margin: auto;
 }
 .stories {
+  background-color: #ffffff;
 }
 .stories__title {
   margin-bottom: 40px;
@@ -372,7 +380,6 @@ html {
 }
 .footer__text {
   grid-column-start: 2;
- 
 
   font-family: "Red Hat Text";
   font-style: normal;
@@ -381,7 +388,7 @@ html {
   line-height: 21px;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .social__list {
   padding: 13px 0;
@@ -390,9 +397,27 @@ html {
   justify-self: end;
   display: flex;
   gap: 20px;
-
 }
 .social__item {
 }
 .social__icon-wrapper {
+}
+
+.social__btn:hover {
+  transition: .6s;
+  fill: #f2785c;
+}
+
+.contacts {
+  margin-left: 120px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rs:hover {
+  transition: .6s;
+  border: 1px solid #f2785c;
+  border-radius: 30px;
 }
